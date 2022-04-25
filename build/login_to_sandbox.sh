@@ -7,4 +7,6 @@ sfdx force:auth:jwt:grant --clientid $SANDBOX_APP_KEY --jwtkeyfile keys/server.k
 
 echo "Alias Org"
 echo $DevHub
+echo "Alias Org"
 echo DevHub
+echo "Alias Org"
