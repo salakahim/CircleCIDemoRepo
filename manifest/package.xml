@@ -36,12 +36,12 @@
 		<members>Case.PotentialLiability__c</members>
 		<members>Case.Product__c</members>
 		<members>Case.SLAViolation__c</members>
-		<members>Contact.Dietary_Restrictions__c</members>
+		<members>Contact.Dietary_Restrictions__c</members> 
 		<members>Contact.Formal_Name__c</members>
 		<members>Contact_Junction__c.CC_d__c</members>
 		<members>Contact_Junction__c.Child_Contact__c</members>
 		<members>Contact_Junction__c.Description__c</members>
-		<members>Contact_Junction__c.Dietary_Restrictions__c</members>
+	<!--	<members>Contact_Junction__c.Dietary_Restrictions__c</members> -->
 		<members>Contact_Junction__c.Dietary_Restrictions_fmla__c</members>
 		<members>Contact_Junction__c.Email__c</members>
 		<members>Contact_Junction__c.Email_fmla__c</members>
@@ -50,7 +50,7 @@
 		<members>Contact_Junction__c.FirstName__c</members>
 		<members>Contact_Junction__c.FirstName_fmla__c</members>
 		<members>Contact_Junction__c.FormalName_fmla__c</members>
-		<members>Contact_Junction__c.Formal_Name__c</members>
+	<!--	<members>Contact_Junction__c.Formal_Name__c</members> -->
 		<members>Contact_Junction__c.Gender__c</members>
 		<members>Contact_Junction__c.Language__c</members>
 		<members>Contact_Junction__c.LastName__c</members>
