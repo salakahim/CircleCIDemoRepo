@@ -42,14 +42,14 @@
 		<members>Contact_Junction__c.Child_Contact__c</members>
 		<members>Contact_Junction__c.Description__c</members>
 	<!--	<members>Contact_Junction__c.Dietary_Restrictions__c</members> -->
-		<members>Contact_Junction__c.Dietary_Restrictions_fmla__c</members>
+	<!--	<members>Contact_Junction__c.Dietary_Restrictions_fmla__c</members> -->
 		<members>Contact_Junction__c.Email__c</members>
 		<members>Contact_Junction__c.Email_fmla__c</members>
 		<members>Contact_Junction__c.Fax__c</members>
 		<members>Contact_Junction__c.Fax_fmla__c</members>
 		<members>Contact_Junction__c.FirstName__c</members>
 		<members>Contact_Junction__c.FirstName_fmla__c</members>
-		<members>Contact_Junction__c.FormalName_fmla__c</members>
+	<!--	<members>Contact_Junction__c.FormalName_fmla__c</members> -->
 	<!--	<members>Contact_Junction__c.Formal_Name__c</members> -->
 		<members>Contact_Junction__c.Gender__c</members>
 		<members>Contact_Junction__c.Language__c</members>
