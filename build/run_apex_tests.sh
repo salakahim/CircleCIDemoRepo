@@ -15,6 +15,7 @@
 #sfdx force:mdapi:deploy --checkonly -u DevHub -d test_code/ -w -1 -l RunLocalTests
 
 echo "Deploying source to org"
+echo DevHub 
 sfdx force:source:deploy --sourcepath force-app --targetusername DevHub
 
 echo "Testing code in org"
