@@ -40,3 +40,4 @@ $RECYCLE.BIN/
 server.crt
 server.csr
 server.key
+*.txt
