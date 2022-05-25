@@ -1,4 +1,4 @@
-version: 2.1 
+version: 2.1
 jobs:
   run-tests:
     docker:
@@ -17,7 +17,7 @@ jobs:
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
             - node_modules
-      - run: 
+      - run:
           name: Login to Org
           command: . build/login_to_sandbox.sh
       - run:
@@ -28,6 +28,7 @@ jobs:
   code-review:
     docker:
       - image: circleci/node:latest
+    parallelism: 4
     steps:
       - checkout
       - restore_cache:
@@ -49,6 +50,7 @@ jobs:
   deploy-code:
     docker:
       - image: circleci/node:latest
+    parallelism: 4
     steps:
       - checkout
       - restore_cache:
@@ -62,7 +64,7 @@ jobs:
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
             - node_modules
-      - run: 
+      - run:
           name: Login to Org
           command: . build/login_to_org.sh
       - run:
