@@ -33,7 +33,9 @@
 		<name>CustomMetadata</name>
 	</types>
 	<types>
-		<members>*</members>
+		<members>Trailshred_Setting__mdt</members>
+		<members>UE_Related_List_Column__mdt</members>
+		<members>UE_Related_List_Page_Size__mdt</members>
 		<name>CustomObject</name>
 	</types>
 	<types>
